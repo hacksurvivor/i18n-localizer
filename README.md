@@ -17,10 +17,10 @@ A [Claude Code](https://docs.anthropic.com/en/docs/claude-code) skill that enabl
 ## ⚡ Quick Start
 
 ```bash
-claude install i18n-localizer
+git clone https://github.com/hacksurvivor/i18n-localizer.git ~/.claude/skills/i18n-localizer
 ```
 
-That's it. The skill auto-detects your project type and gets to work.
+Then open any project and ask Claude to localize it — the skill auto-detects your project type and gets to work.
 
 ---
 
