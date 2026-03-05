@@ -24,6 +24,23 @@ Then open any project and ask Claude to localize it — the skill auto-detects y
 
 ---
 
+## Problem
+
+Localization projects break down when teams have mixed stacks, inconsistent translation workflows, and no single rollout path.
+
+## Architecture
+
+- Skill-driven workflow that scans codebases, detects framework/i18n context, and routes to the right implementation strategy.
+- Supports web and mobile surfaces (Next.js, React, React Native/Expo, SwiftUI) with format-aware translation handling.
+- Integrates routing, metadata, and locale file operations in one delivery loop.
+
+## Outcomes
+
+- Faster localization rollout across heterogeneous codebases.
+- Standardized i18n implementation patterns instead of one-off scripts.
+- Cleaner handoff from technical setup to content translation and QA.
+
+
 ## 🧩 Supported Frameworks
 
 | Framework | Details |
